@@ -1,10 +1,17 @@
-Swift Scheduler is a real-time appointment scheduling system built with Node.js, Express, MongoDB for the backend and React.js for the frontend.
+# 📌 Swift Scheduler
 
-Features : 
-✅ JWT-based authentication
-✅ RESTful API architecture
-✅ Real-time MongoDB integration
-✅ React UI with reusable components
-✅ Scalable project structure (controllers, models, routes)
+Swift Scheduler is a **real-time appointment scheduling system** built using **Node.js, Express, MongoDB**, and **React.js**.  
+It allows users to manage appointments seamlessly with features like **JWT authentication**, **REST APIs**, and a scalable UI.
+
+---
+
+## 🚀 Features
+✅ Real-time appointment scheduling  
+✅ JWT-based authentication for security  
+✅ RESTful API design for scalability  
+✅ React frontend with reusable components  
+✅ MongoDB integration for data storage  
+
+---
 
 
