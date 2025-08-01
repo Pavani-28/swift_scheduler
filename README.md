@@ -8,14 +8,30 @@ Swift Scheduler is a real-time appointment scheduling app built with **React.js*
 - MongoDB integration
 - React UI with reusable components
 
-## 📂 Project Structure
-```plaintext
-swift_scheduler/
-│── server.js           # Backend entry point
-│── package.json        # Backend dependencies
-│── client/             # React frontend
-│── models/             # Mongoose models
-│── routes/             # Express routes
-│── controllers/        # Business logic
-│── config/             # DB config & environment setup
-│── .env                # Environment variables
+
+## ⚙️ Setup
+
+```bash
+Clone the repository
+git clone https://github.com/Pavani-28/swift_scheduler.git
+
+Navigate into the project
+cd swift_scheduler
+
+Install backend dependencies
+npm install
+
+Install frontend dependencies
+cd client && npm install && cd ..
+
+Create a .env file in the root directory with the following:
+PORT=3001
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Start the backend server
+node server.js
+
+Start the React frontend
+cd client && npm start
+
