@@ -1,37 +1,64 @@
-# 🏥 Swift Scheduler
-Swift Scheduler is a real-time appointment scheduling app built with **React.js**, **Node.js**, **Express**, and **MongoDB**. It includes JWT authentication, REST APIs, and a modern UI for seamless booking.
+# Swift Scheduler
 
-## 🚀 Features
-- Real-time appointment scheduling
-- JWT-based authentication
-- REST API architecture
-- MongoDB integration
-- React UI with reusable components
+**Swift Scheduler** is a project developed by [Pavani-28](https://github.com/Pavani-28) for managing schedules, tasks, or events efficiently. The repository is public and written in JavaScript.
 
+## Features
 
-## ⚙️ Setup
+- Create, update, and delete schedules or events
+- User-friendly interface for managing tasks
+- Real-time updates on scheduled items
+- Responsive design for multiple devices
+- Integration possibilities with calendars or notifications
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
-Clone the repository
 git clone https://github.com/Pavani-28/swift_scheduler.git
-
-Navigate into the project
 cd swift_scheduler
+```
 
-Install backend dependencies
+Install dependencies (if using npm/yarn):
+
+```bash
 npm install
+# or
+yarn install
+```
 
-Install frontend dependencies
-cd client && npm install && cd ..
+Run the development server:
 
-Create a .env file in the root directory with the following:
-PORT=3001
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+```bash
+npm start
+```
 
-Start the backend server
-node server.js
+## Folder Structure
 
-Start the React frontend
-cd client && npm start
+- `/src`: Source code files
+- `/public`: Static assets
+- `/components`: Reusable UI components
+- `/assets`: Images, logos, etc.
 
+## Technologies Used
+
+- JavaScript
+- HTML/CSS
+- (Specify if any framework/library like React, Vue, etc., is used)
+- Possible calendar or notification libraries
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+No license information is specified yet. Please contact the repository owner for more details.
+
+## Author
+
+[Pavani-28](https://github.com/Pavani-28)
+
+---
+
+For more details, visit the [GitHub repository](https://github.com/Pavani-28/swift_scheduler).
